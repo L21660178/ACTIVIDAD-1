@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje con JavaScript</title>
+</head>
+<body>
+    <!-- Aquí está la etiqueta de texto donde se mostrará el mensaje -->
+    <p id="soyelid"></p>
+
+    <!-- Vínculo al código JavaScript -->
+    <script>
+        // Cuando se carga la página, JavaScript inserta el mensaje en el elemento con id "soyelid"
+        window.onload = function() {
+            document.getElementById("soyelid").textContent = "no me gusta la programación";
+        };
+    </script>
+</body>
+</html>
